@@ -6,7 +6,7 @@ An end-to-end pipeline for beach sand grain size distribution estimation and cla
 
 ### Implemented Features
 
-#### Preprocessing Module
+#### Preprocessing Module (preprocess.py)
 
 - ArUco marker-based image reorientation for consistent image alignment
 - Pixel-to-length mapping using standard reference object (ArUco marker)
@@ -14,7 +14,7 @@ An end-to-end pipeline for beach sand grain size distribution estimation and cla
 - Haze removal using Dark Channel Prior method
 - Image standardization to uniform dimensions
 
-#### Classification Module
+#### Classification Module (model.py, train.py)
 
 - Decision tree-based classification for sand type (Dune/Intertidal/Berm)
 - Feature extraction:
@@ -24,7 +24,7 @@ An end-to-end pipeline for beach sand grain size distribution estimation and cla
 - Periodic model retraining capability
 - Model persistence and versioning
 
-### Planned Features (To Be Implemented)
+### _Planned Features (To Be Implemented)_
 
 #### Feature Extraction Module
 
@@ -118,7 +118,7 @@ python run.py --mode predict \
 - Minimal background noise or interference
 - Recommended resolution: 1920x1080 or higher
 
-## Future Enhancements
+## Further Enhancements Aiming For
 
 1. **Advanced Grain Analysis**
 
